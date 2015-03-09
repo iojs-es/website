@@ -17,6 +17,9 @@ Descargar para:
 
 [Changelog](https://github.com/iojs/io.js/blob/v1.x/CHANGELOG.md)
 
-[Nightly releases](https://iojs.org/download/nightly/) están disponibles para pruebas.
+[Actualización semanal - 6 de Marzo][1] <small>constando de actualizaciones en core y la comunidad ([Medium][1])</small>
+<br><br> [Nightly releases](https://iojs.org/download/nightly/) están disponibles para pruebas.
 
 [Preguntas frecuentes](faq.html)
+
+[1]: https://medium.com/node-js-javascript/io-js-week-of-march-6th-2f9344688277
