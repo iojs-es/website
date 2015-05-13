@@ -1,135 +1,137 @@
-# io.js Project Governance
+# io.js Gobernabilidad del Proyecto
 
-## Technical Committee
+## Comité Técnico
 
-The io.js project is jointly governed by a Technical Committee (TC)
-which is responsible for high-level guidance of the project.
+El proyecto io.js está gobernado conjuntamente por un Comité Técnico (CT)
+que es responsable de la dirección a alto nivel del proyecto.
 
-The TC has final authority over this project including:
+El CT tiene autoridad final sobre este proyecto incluyendo:
 
-* Technical direction
-* Project governance and process (including this policy)
-* Contribution policy
-* GitHub repository hosting
-* Conduct guidelines
-* Maintaining the list of additional Collaborators
+* Dirección técnica
+* Gobernabilidad del proyecto y su proceso (incluyendo esta política)
+* Política de contribución
+* Alojamiento del repositorio en GitHub
+* Lineamientos de conducta
+* Mantenimiento de la lista de Colaboradores adicionales
 
-Initial membership invitations to the TC were given to individuals who
-had been active contributors to io.js, and who have significant
-experience with the management of the io.js project. Membership is
-expected to evolve over time according to the needs of the project.
+Las invitaciones iniciales de membresía al CT fueron dados a personas
+que han sido contribuyentes activos a io.js, y que tienen experiencia
+significativa con la dirección del proyecto io.js. Se espera que la
+membresía evolucione con el tiempo conforme las necesidades del proyecto.
 
-For the current list of TC members, see the project
+Para la lista actual de los miembros del CT, consulte el proyecto
 [README.md](./README.md#current-project-team-members).
 
-## Collaborators
+## Colaboradores
 
-The [iojs/io.js](https://github.com/iojs/io.js) GitHub repository is
-maintained by the TC and additional Collaborators who are added by the
-TC on an ongoing basis.
+El repositorio [iojs/io.js](https://github.com/iojs/io.js) en Github es
+mantenido por el CT y Colaboradores adicionales que son añadidos por el
+CT de manera continua.
 
-Individuals making significant and valuable contributions are made
-Collaborators and given commit-access to the project. These
-individuals are identified by the TC and their addition as
-Collaborators is discussed during the weekly TC meeting.
+Los individuos que hacen contribuciones significativas y valiosas se
+hacen Colaboradores y se les asigna privilegios de commit al proyecto.
+Estos individuos son identificados por el CT y su incorporación como
+Colaboradores se discute en la reunión semanal del CT.
 
-_Note:_ If you make a significant contribution and are not considered
-for commit-access log an issue or contact a TC member directly and it
-will be brought up in the next TC meeting.
+_Nota:_ Si usted realiza una contribución significativa y no se le asigna
+privilegios de commit, registre un asunto o contacte directamente a un
+miembro del CT y será tomado en cuenta en la proxima reunión del CT.
 
-Modifications of the contents of the iojs/io.js repository are made on
-a collaborative basis. Anybody with a GitHub account may propose a
-modification via pull request and it will be considered by the project
-Collaborators. All pull requests must be reviewed and accepted by a
-Collaborator with sufficient expertise who is able to take full
-responsibility for the change. In the case of pull requests proposed
-by an existing Collaborator, an additional Collaborator is required
-for sign-off. Consensus should be sought if additional Collaborators
-participate and there is disagreement around a particular
-modification. See _Consensus Seeking Process_ below for further detail
-on the consensus model used for governance.
+Las Modificaciones de los contenidos del repositorio iojs/io.js se hacen
+sobre una base de colaboración. Cualquier persona con una cuenta de GitHub
+podrá proponer una modificación a través de solicitud de extracción y será
+considerado por los colaboradores del proyecto. Todas las solicitudes de
+extracción deben ser revisadas y aceptadas por un colaborador con la
+suficiente experiencia que sea capaz de asumir plena responsabilidad por
+el cambio. En el caso de las solicitudes de extracción propuestas por un
+colaborador existente, un colaborador adicional es requerido para
+finalizarla. Se debe buscar el consenso si participan Colaboradores
+adicionales y hay un desacuerdo en torno a una modificación particular.
+Ver _Proceso de Búsqueda de Consenso_ abajo para más detalles sobre el
+modelo de consenso utilizado para la gobernabilidad.
 
-Collaborators may opt to elevate significant or controversial
-modifications, or modifications that have not found consensus to the
-TC for discussion by assigning the ***tc-agenda*** tag to a pull
-request or issue. The TC should serve as the final arbiter where
-required.
+Los colaboradores pueden optar por elevar modificaciones significativas o
+controversiales, o modificaciones que no han encontrado consenso al CT
+para su debate asignando la etiqueta ***tc-agenda*** a una solicitud
+de extracción o asunto. El CT debe servir como el árbitro final cuando se
+requiera.
 
-For the current list of Collaborators, see the project
+Para la lista actual de Colaboradores, ver el proyecto
 [README.md](./README.md#current-project-team-members).
 
-A guide for Collaborators is maintained in
+Una guía para los Colaboradores es mantenida en
 [COLLABORATOR_GUIDE.md](./COLLABORATOR_GUIDE.md).
 
-## TC Membership
+## CT Membresía
 
-TC seats are not time-limited.  There is no fixed size of the TC.
-However, the expected target is between 6 and 12, to ensure adequate
-coverage of important areas of expertise, balanced with the ability to
-make decisions efficiently.
+Los puestos del CT no son de duración limitada. No hay un tamaño fijo del
+CT. Sin embargo, el tamaño esperado es de 6 a 12 para asegurar una
+adecuada cobertura de las áreas importantes de experiencia en
+equilibrio con la capacidad de tomar decisiones eficientemente.
 
-There is no specific set of requirements or qualifications for TC
-membership beyond these rules.
+No hay un conjunto específico de requisitos o calificaciones para ser miembro
+del CT más allá de estas reglas.
 
-The TC may add additional members to the TC by a standard TC motion.
+El CT puede agregar miembros adicionales al CT por una moción estándar
+del TC.
 
-A TC member may be removed from the TC by voluntary resignation, or by
-a standard TC motion.
+Un miembro de CT puede ser removido de la CT por renuncia voluntaria, o por una
+moción estándar del CT.
 
-Changes to TC membership should be posted in the agenda, and may be
-suggested as any other agenda item (see "TC Meetings" below).
+Cambios a la membresía del CT deberían ser publicados en la agenda y
+pueden ser sugeridos como cualquier otro punto de la agenda (ver "CT Reuniones" abajo).
 
-No more than 1/3 of the TC members may be affiliated with the same
-employer.  If removal or resignation of a TC member, or a change of
-employment by a TC member, creates a situation where more than 1/3 of
-the TC membership shares an employer, then the situation must be
-immediately remedied by the resignation or removal of one or more TC
-members affiliated with the over-represented employer(s).
+No más de un tercio de los miembros del CT puede estar afiliados con el
+mismo empleador. Si la remoción o renuncia de un miembro del CT o un
+cambio de empleo de un miembro del CT crea una situación en la que más de
+un tercio de las membresías del CT comparten un empleador, entonces la
+situación debe remediarse inmediatamente por la renuncia o remoción de uno
+o más miembros del CT afiliados con el empleador(es) sobre-representado.
 
-## TC Meetings
+## TC Reuniones
 
-The TC meets weekly on a Google Hangout On Air. The meeting is run by
-a designated moderator approved by the TC. Each meeting should be
-published to YouTube.
+El CT se reúne semanalmente en Google Hangout On Air. La reunión está
+dirigido por un moderador designado y aprobado por el CT. Cada reunión
+debe ser publicada en YouTube.
 
-Items are added to the TC agenda which are considered contentious or
-are modifications of governance, contribution policy, TC membership,
-or release process.
+Los asuntos que se agregan a la agenda del CT son considerados discutibles
+o son modificaciones de gobernabilidad, política de contribución,
+membresía del CT o del proceso de liberación.
 
-The intention of the agenda is not to approve or review all patches,
-that should happen continuously on GitHub and be handled by the larger
-group of Collaborators.
+La intención de la agenda no es la de aprobar o revisar todos los parches,
+eso debe ocurrir continuamente en GitHub y ser manejado por el amplio grupo
+de colaboradores.
 
-Any community member or contributor can ask that something be added to
-the next meeting's agenda by logging a GitHub Issue. Any Collaborator,
-TC member or the moderator can add the item to the agenda by adding
-the ***tc-agenda*** tag to the issue.
+Cualquier miembro de la comunidad o contribuyente puede pedir que algo se
+agrege a la agenda de la próxima reunión ingresando un asunto en GitHub.
+Cualquier Colaborador, miembro del TC o el moderador puede agregar el punto
+ a la agenda agregando la etiqueta ***tc-agenda*** al asunto.
 
-Prior to each TC meeting the moderator will share the Agenda with
-members of the TC. TC members can add any items they like to the
-agenda at the beginning of each meeting. The moderator and the TC
-cannot veto or remove items.
+Antes de cada reunión del CT el moderador compartirá la Agenda a los
+miembros del CT. Los miembros del CT pueden agregar cualquier punto que
+deseen a la agenda al inicio de cada reunión. El moderador y el CT no
+pueden vetar o eliminar elementos.
 
-The TC may invite persons or representatives from certain projects to
-participate in a non-voting capacity. These invitees currently are:
+El CT podrá invitar a las personas o representantes de determinados proyectos
+a participar sin derecho de voto. Estos invitados actualmente son:
 
-* A representative from [build](https://github.com/node-forward/build)
-  chosen by that project.
+* Un representante de [build](https://github.com/node-forward/build)
+  elegido por ese proyecto.
 
-The moderator is responsible for summarizing the discussion of each
-agenda item and send it as a pull request after the meeting.
+El moderador es responsable de resumir la discusión de cada punto de
+la agenda y enviarlo como una solicitud de extracción después de la reunión.
 
-## Consensus Seeking Process
+## Proceso de Búsqueda de Consenso
 
-The TC follows a
-[Consensus Seeking](http://en.wikipedia.org/wiki/Consensus-seeking_decision-making)
-decision making model.
+El CT sigue un
+[Buscando el Consenso](http://en.wikipedia.org/wiki/Consensus-seeking_decision-making)
+modelo de toma de decisiones.
 
-When an agenda item has appeared to reach a consensus the moderator
-will ask "Does anyone object?" as a final call for dissent from the
-consensus.
+Cuando un punto de la agenda parece estar llegando a un consenso el
+moderador preguntará "¿Alguien tiene objeciones?" como una llamada final
+para la disidencia del consenso.
 
-If an agenda item cannot reach a consensus a TC member can call for
-either a closing vote or a vote to table the issue to the next
-meeting. The call for a vote must be seconded by a majority of the TC
-or else the discussion will continue. Simple majority wins.
+Si un punto de la agenda no puede llegar a un consenso un miembro del CT
+puede convocar, ya sea a un voto de cierre o un voto para agendar el
+asunto para la próxima reunión. La convocatoria de voto debe ser secundada por
+la mayoría del CT o de lo contrario el debate continuará. La mayoría gana.
