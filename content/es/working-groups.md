@@ -1,22 +1,16 @@
-# io.js Working Groups
+# io.js Grupos de Trabajo
 
-io.js Working Groups are autonomous projects created by the
-[Technical Committee (TC)](https://github.com/iojs/io.js/blob/v1.x/GOVERNANCE.md#technical-committee).
+Los Grupos de Trabajo (GT) de io.js son proyectos autónomos creados por el
+[Comité Tecnico (CT)](https://github.com/iojs/io.js/blob/v1.x/GOVERNANCE.md#technical-committee).
 
-Working Groups can be formed at any time but must be ratified by the TC.
-Once formed the work defined in the Working Group charter is the
-responsibility of the WG rather than the TC.
+Los Grupos de Trabajo pueden formarse en cualquier momento pero deben de ser ratificados por el CT.
+Una vez formados, el trabajo definido en la carta del Grupo de Trabajo es responsabilidad del Grupo de Trabajo en lugar del CT.
 
-It is important that Working Groups are not formed pre-maturely. Working
-Groups are not formed to *begin* a set of tasks but instead are formed
-once that work is already underway and the contributors
-think it would benefit from being done as an autonomous project.
+Es importante que los GT no se formen prematuramente. Los grupos de trabajo no son formados para *comenzar* una serie de tareas si no más bien formados una vez que el trabajo se esta llevando a cabo y los colaboradores piensan que es beneficioso hacerse como un proyecto autónomo.
 
-If the work defined in a Working Group charter is completed the Working
-Group should be dissolved and the responsibility for governance absorbed
-back in to the TC.
+Si el trabajo definido en la carta del Grupo de Trabajo se completa, el Grupo debe disolverse y la responsabilidad de gobernación absorbida de nuevo por el CT.
 
-## Current Working Groups
+## Grupos de Trabajo actuales
 
 * [Website](#website)
 * [Streams](#streams)
@@ -26,375 +20,260 @@ back in to the TC.
 * [Evangelism](#evangelism)
 * [Roadmap](#roadmap)
 * [Docker](#docker)
-* [Starting a Working Group](#starting-a-wg)
+* [Iniciar un Grupo de Trabajo](#starting-a-wg)
 * [Bootstrap Governance](#bootstrap-governance)
 
 ### [Website](https://github.com/iojs/website)
 
-The website working group's purpose is to build and maintain a public
-website for the `io.js` project.
+El propósito del grupo de trabajo del website es el de construir y mantener un sitio público para el proyecto de `io.js`.
 
-Its responsibilities are:
-* Develop and maintain a build and automation system for `iojs.org`.
-* Ensure the site is regularly updated with changes made to `io.js` like
-releases and features.
-* Foster and enable a community of translators.
+Sus responsabilidades son:
+* Desarrollar y mantener un sistema automatizado para `iojs.org`.
+* Asegurarse de que el sitio se actualiza regularmente con cambios hechos en `io.js`, tales como publicaciones y nuevas funciones.
+* Acoger y habilitar una comunidad de traductores.
 
 ### [Streams](https://github.com/iojs/readable-stream)
 
-The Streams WG is dedicated to the support and improvement of the Streams API
-as used in io.js and the npm ecosystem. We seek to create a composable API that
-solves the problem of representing multiple occurrences of an event over time
-in a humane, low-overhead fashion. Improvements to the API will be driven by
-the needs of the ecosystem; interoperability and backwards compatibility with
-other solutions and prior versions are paramount in importance. Our
-responsibilities include:
+El GT Streams está dedicado a dar soporte y mejorar la API de Streams como es
+usada en io.js y el sistema npm. Buscamos crear una API capaz de componerse que resuelva el problema presentado por multiples ocurrencias de un evento a lo largo del tiempo de una forma humana y con poca complejidad. Las mejoras en la API vendrán determinadas por las necesidades del ecosistema; interoperabilidad y compatibilidad con otras soluciones y versiones anteriores es de vital importancia. Nuestras responsabilidades incluyen:
 
-* Addressing stream issues on the io.js issue tracker.
-* Authoring and editing stream documentation within the io.js project.
-* Reviewing changes to stream subclasses within the io.js project.
-* Redirecting changes to streams from the io.js project to this project.
-* Assisting in the implementation of stream providers within io.js.
-* Recommending versions of readable-stream to be included in io.js.
-* Messaging about the future of streams to give the community advance notice of changes.
-
+* Hacer frente a los stream issues en el io.js issue tracker.
+* Autoría y edición de la documentación de streams perteneciente al proyecto io.js.
+* Revisar cambios a las subclases de streams subclasses pertenecientes al proyecto io.js.
+* Redireccionar cambios de streams desde el proyecto io.js project a éste.
+* Asistir en la implementación de proveedores de streams dentro de io.js.
+* Recomendar que versiones de readable-stream han de ser incluidas en io.js.
+* Proveer mensajes acerca del futuro de streams para dar a la comunidad avisando a la comunidad de los cambios.
 
 ### [Build](https://github.com/iojs/build)
 
-The build working group's purpose is to create and maintain a
-distributed automation infrastructure.
+El propósito del Grupo de Trabajo build es el de crear y mantener una infraestructura automatizada.
 
-Its responsibilities are:
-* Produce Packages for all target platforms.
-* Run tests.
-* Run performance testing and comparisons.
-* Creates and manages build-containers.
-
+Sus responsabilidades son:
+* Producir Paquetes para todas las plataformas objetivo.
+* Realizar tests.
+* Realizar tests de rendimiento y comparaciones.
+* Crea y gestiona build-containers.
 
 ### [Tracing](https://github.com/iojs/tracing-wg)
 
-The tracing working group's purpose is to increase the
-transparency of software written in io.js.
+El propósito del Grupo de Trabajo tracing es el de aumentar la transparencia del software escrito en io.js.
 
-Its responsibilities are:
-* Collaboration with V8 to integrate with `trace_event`.
-* Maintenance and iteration on AsyncWrap.
-* Maintenance and improvements to system tracing support (DTrace, LTTng, etc.)
-* Documentation of tracing and debugging techniques.
-* Fostering a tracing and debugging ecosystem.
+Sus responsabilidades son:
+* Colaborar con V8 para integrarse con `trace_event`.
+* Mantenimiento e iteración de AsyncWrap.
+* Mantenimiento y mejoras al soporte del sistema de tracing (DTrace, LTTng, etc.)
+* Documentación de las técnicas de tracing y debugging.
+* Hospedar un ecosistema de tracing y debugging.
 
 ### i18n
 
-The i18n working groups handle more than just translations. They
-are endpoints for community members to collaborate with each
-other in their language of choice.
+Los Grupos de Trabajo i18n llevan a cabo más que las traducciones. Son los puntos finales de los miembros de la comunidad para colaborar con su lenguaje elegido.
 
-Each team is organized around a common spoken language. Each
-language community might then produce multiple localizations for
-various project resources.
+Cada equipo está organizado alrededor de un lenguaje común. Cada comunidad puede luego producir múltiples localizaciones recurso de varios proyectos.
 
-Their responsibilities are:
-* Translations of any io.js materials they believe are relevant to their
-community.
-* Review processes for keeping translations up
-to date and of high quality.
-* Social media channels in their language.
-* Promotion of io.js speakers for meetups and conferences in their
-language.
+Sus responsabilidades son:
+* Traducciones de cualquiera de los materiales io.js que ellos crean relevantes para su comunidad.
+* Revisar procesos teniendo traducciones actualizadas y con alta calidad.
+* Redes sociales en su lenguaje.
+* Promoción de conferenciantes de io.js para reuniones y conferencias en su lenguaje.
 
-Each language community maintains its own membership.
+Cada comunidad de lenguaje mantiene sus afiliados.
 
-* [iojs-ar - Arabic (اللغة العربية)](http://github.com/iojs/iojs-ar)
-* [iojs-bg - Bulgarian (български език)](http://github.com/iojs/iojs-bg)
-* [iojs-bn - Bengali (বাংলা)](http://github.com/iojs/iojs-bn)
-* [iojs-cn - Chinese (中文)](http://github.com/iojs/iojs-cn)
-* [iojs-cs - Czech (Český Jazyk)](http://github.com/iojs/iojs-cs)
-* [iojs-da - Danish (Dansk)](http://github.com/iojs/iojs-da)
-* [iojs-de - German (Deutsch)](http://github.com/iojs/iojs-de)
-* [iojs-el - Greek (Ελληνικά)](http://github.com/iojs/iojs-el)
-* [iojs-es - Spanish (Español)](http://github.com/iojs/iojs-es)
-* [iojs-fa - Persian (فارسی)](http://github.com/iojs/iojs-fa)
-* [iojs-fi - Finnish (Suomi)](http://github.com/iojs/iojs-fi)
-* [iojs-fr - French (Français)](http://github.com/iojs/iojs-fr)
-* [iojs-he - Hebrew (עברית)](http://github.com/iojs/iojs-he)
+* [iojs-ar - Árabe (اللغة العربية)](http://github.com/iojs/iojs-ar)
+* [iojs-bg - Bulgara (български език)](http://github.com/iojs/iojs-bg)
+* [iojs-bn - Bengalí (বাংলা)](http://github.com/iojs/iojs-bn)
+* [iojs-cn - China (中文)](http://github.com/iojs/iojs-cn)
+* [iojs-cs - Checa (Český Jazyk)](http://github.com/iojs/iojs-cs)
+* [iojs-da - Danesa (Dansk)](http://github.com/iojs/iojs-da)
+* [iojs-de - Alemana (Deutsch)](http://github.com/iojs/iojs-de)
+* [iojs-el - Griega (Ελληνικά)](http://github.com/iojs/iojs-el)
+* [iojs-es - Española (Español)](http://github.com/iojs/iojs-es)
+* [iojs-fa - Persa (فارسی)](http://github.com/iojs/iojs-fa)
+* [iojs-fi - Finesa (Suomi)](http://github.com/iojs/iojs-fi)
+* [iojs-fr - Francesa (Français)](http://github.com/iojs/iojs-fr)
+* [iojs-he - Hebrea (עברית)](http://github.com/iojs/iojs-he)
 * [iojs-hi - Hindi (फिजी बात)](http://github.com/iojs/iojs-hi)
-* [iojs-hu - Hungarian (Magyar)](http://github.com/iojs/iojs-hu)
-* [iojs-id - Indonesian (Bahasa Indonesia)](http://github.com/iojs/iojs-id)
-* [iojs-it - Italian (Italiano)](http://github.com/iojs/iojs-it)
-* [iojs-ja - Japanese (日本語)](http://github.com/iojs/iojs-ja)
-* [iojs-ka - Georgian (ქართული)](http://github.com/iojs/iojs-ka)
-* [iojs-ko - Korean (조선말)](http://github.com/iojs/iojs-ko)
-* [iojs-mk - Macedonian (Mакедонски)](http://github.com/iojs/iojs-mk)
-* [iojs-ms - Malay (بهاس ملايو)](http://github.com/iojs/iojs-ms)
-* [iojs-nl - Dutch (Nederlands)](http://github.com/iojs/iojs-nl)
-* [iojs-no - Norwegian (Norsk)](http://github.com/iojs/iojs-no)
+* [iojs-hu - Húngara (Magyar)](http://github.com/iojs/iojs-hu)
+* [iojs-id - Indonesia (Bahasa Indonesia)](http://github.com/iojs/iojs-id)
+* [iojs-it - Italiana (Italiano)](http://github.com/iojs/iojs-it)
+* [iojs-ja - Japonesa (日本語)](http://github.com/iojs/iojs-ja)
+* [iojs-ka - Georgiana (ქართული)](http://github.com/iojs/iojs-ka)
+* [iojs-ko - Coreana (조선말)](http://github.com/iojs/iojs-ko)
+* [iojs-mk - Macedonia (Mакедонски)](http://github.com/iojs/iojs-mk)
+* [iojs-ms - Malaya (بهاس ملايو)](http://github.com/iojs/iojs-ms)
+* [iojs-nl - Holandesa (Nederlands)](http://github.com/iojs/iojs-nl)
+* [iojs-no - Noruega (Norsk)](http://github.com/iojs/iojs-no)
 * [iojs-pl - Polish (Język Polski)](http://github.com/iojs/iojs-pl)
-* [iojs-pt - Portuguese (Português)](http://github.com/iojs/iojs-pt)
-* [iojs-ro - Romanian (Română)](http://github.com/iojs/iojs-ro)
-* [iojs-ru - Russian (Русский)](http://github.com/iojs/iojs-ru)
-* [iojs-sv - Swedish (Svenska)](http://github.com/iojs/iojs-sv)
+* [iojs-pt - Portuguesa (Português)](http://github.com/iojs/iojs-pt)
+* [iojs-ro - Rumana (Română)](http://github.com/iojs/iojs-ro)
+* [iojs-ru - Rusa (Русский)](http://github.com/iojs/iojs-ru)
+* [iojs-sv - Sueca (Svenska)](http://github.com/iojs/iojs-sv)
 * [iojs-ta - Tamil (தமிழ்)](http://github.com/iojs/iojs-ta)
-* [iojs-tr - Turkish (Türkçe)](http://github.com/iojs/iojs-tr)
-* [iojs-tw - Taiwanese (Hō-ló)](http://github.com/iojs/iojs-tw)
-* [iojs-uk - Ukrainian (Українська)](http://github.com/iojs/iojs-uk)
-* [iojs-vi - Vietnamese (Tiếng Việtnam)](http://github.com/iojs/iojs-vi)
+* [iojs-tr - Turca (Türkçe)](http://github.com/iojs/iojs-tr)
+* [iojs-tw - Taiwanesa (Hō-ló)](http://github.com/iojs/iojs-tw)
+* [iojs-uk - Ucraniana (Українська)](http://github.com/iojs/iojs-uk)
+* [iojs-vi - Vietnamita (Tiếng Việtnam)](http://github.com/iojs/iojs-vi)
 
 
 ### [Evangelism](https://github.com/iojs/evangelism)
 
-The evangelism working group promotes the accomplishments
-of io.js and lets the community know how they can get involved.
+El grupo de trabajo evangelism promueve los logros de io.js y hace saber a la comunidad como pueden involucrarse.
 
-Their responsibilities are:
-* Project messaging.
-* Official project social media.
-* Promotion of speakers for meetups and conferences.
-* Promotion of community events.
-* Publishing regular update summaries and other promotional
-content.
+Sus responsabilidades:
+* Mensajería del proyecto.
+* Redes sociales oficiales del proyecto.
+* Promocionar conferenciantes para reuniones y conferencias.
+* Promocionar eventos de la comunidad.
+* Publicar actualizaciones regular y otro contenido promocional.
 
 
 ### [Roadmap](https://github.com/iojs/roadmap)
 
-The roadmap working group is responsible for user community outreach
-and the translation of their concerns into a plan of action for io.js.
+El Grupo de Trabajo roadmap es responsable de mantener el alcance de la comunidad de los usuarios y traducir sus preocupaciones en un plan de acción para io.js.
 
-The final [ROADMAP](./ROADMAP.md) document is still owned by the TC and requires
-the same approval for changes as any other project asset.
+El documento [ROADMAP](./ROADMAP.md) final aún es propiedad de TC y requiere
+la misma aprobación para cambios como cualquier otro activo del proyecto.
 
-Their responsibilities are:
-* Attract and summarize user community needs and feedback.
-* Find or potentially create tools that allow for broader participation.
-* Create Pull Requests for relevant changes to [Roadmap.md](./ROADMAP.md)
+Sus responsabilidades son:
+* Atrae y concentra las necesidades de la comunidad y su feedback.
+* Buscar o potencialmente crear herramientas que permitan una participación más amplia.
+* Crear Pull Requests con los cambios relevantes a [Roadmap.md](./ROADMAP.md)
 
 
 ### [Docker](https://github.com/iojs/docker-iojs)
 
-The Docker working group's purpose is to build, maintain, and improve official
-Docker images for the `io.js` project.
+El propósito del grupo de trabajo Docker es el de construir, mantener, y mejorar las imágenes oficiales de Docker para el proyecto `io.js`.
 
-Their responsibilities are:
-* Keep the official Docker images updated in line with new `io.js` releases.
-* Decide and implement image improvements and/or fixes.
-* Maintain and improve the images' documentation.
+Sus responsabilidades son:
+* Mantener las imágenes oficiales de Docker actualizadas en línea con las nuevas publicaciones de `io.js`.
+* Decidir e implementar mejoras y/o correcciones en las imágenes.
+* Mantener y mejorar la documentación de las imágenes.
 
 
-## Starting a WG
+## Establecer un nuevo GT
 
-A Working Group is established by first defining a charter  that can be
-ratified by the TC. A charter is a *statement of purpose*, a
-*list of responsibilities* and a *list of initial membership*.
+Un Grupo de Trabajo es establecido a través de definir una carta que puede ser ratificada por el CT. Siendo esta carta una *declaración de propósitos*, una *lista de responsabilidades* y una *lista de miembros iniciales*.
 
-A working group needs 3 initial members. These should be individuals
-already undertaking the work described in the charter.
+Un grupo de trabajo necesita 3 miembros iniciales. Estos deben de ser individuos que ya estén llevando a cabo el trabajo descrito en la carta.
 
-The list of responsibilities should be specific. Once established, these
-responsibilities are no longer governed by the TC and therefore should
-not be broad or subjective. The only recourse the TC has over the working
-group is to revoke the entire charter and take on the work previously
-done by the working group themselves.
+La lista de responsabilidades debe ser específica. Una vez establecida, estas responsabilidades ya no son gobernadas por el CT y por lo tanto no deben de ser amplias o subjectivas. El único recurso que el CT tiene sobre el grupo de trabajo es el de revocar por completo la carta y tomar el trabajo previo llevado a cabo por el grupo de trabajo ellos mismos.
 
-If the responsibilities described in the charter are currently
-undertaken by another WG then the charter will additionally have to be
-ratified by that WG.
+Si las responsabilidades descritas en la carta están siendo llevadas a cabo por otro GT entonces la carta deberá de ser ratificada adicionalmente por este GT.
 
-You can submit the WG charter for ratification by sending
-a Pull Request to this document, which adds it to the
-list of current Working Groups. Once ratified the list of
-members should be maintained in the Working Group's
-README.
+Puedes presentar la carta del GT para ratificación enviando una Pull Request Pull Request a este documento, añadiéndose a la lista de Grupos de Trabajo. Una vez ratificada la lista de miembros debe de ser mantenida en el README del Grupo de Trabajo.
 
 ## Bootstrap Governance
 
-Once the TC ratifies a charter the WG inherits the following
-documentation for governance, contribution, conduct and an MIT
-LICENSE. The WG is free to change these documents through their own
-governance process, hence the term "bootstrap."
+Una vez el CT ratifica una carta el GT hereda la siguiente documentación de para gobierno, contribución, conducta y una LICENCIA MIT. El GT es libre de cambiar estos documentos bajo sus propio proceso de gobierno de aquí el término "bootstrap."
 
-### *[insert WG name]* Working Group
+### *[introducir nombre del GT]* Grupo de Trabajo
 
-The io.js *[insert WG name]* is jointly governed by a Working Group (WG)
-that is responsible for high-level guidance of the project.
+El *[introducir nombre del GT]* de io.js esta gobernado en conjunto por un Grupo de Trabajo (GT) que es responsable de guiar los pasos del proyecto.
 
-The WG has final authority over this project including:
+El GT tiene decisión final sobre el este proyecto incluyendo:
 
-* Technical direction
-* Project governance and process (including this policy)
-* Contribution policy
-* GitHub repository hosting
-* Conduct guidelines
-* Maintaining the list of additional Collaborators
+* Dirección técnica
+* Gobierno del proyecto y procesos (incluyendo esta política)
+* Política de contribución
+* Alojamiento del repositorio en GitHub
+* Código de conducta
+* Mantener una lista de colaboradores adicionales
 
-For the current list of WG members, see the project
+Para una lista de los miembros actuales del GT, véase el proyecto
 [README.md](./README.md#current-project-team-members).
 
-### Collaborators
+### Colaboradores
 
-The *[insert WG name]* GitHub repository is
-maintained by the WG and additional Collaborators who are added by the
-WG on an ongoing basis.
+El repositorio de GitHub de *[introducir nombre del GT]* es mantenido por el GT y Colaboradores adicionales los cuales serán añadidos por el GT de forma continua.
 
-Individuals making significant and valuable contributions are made
-Collaborators and given commit-access to the project. These
-individuals are identified by the WG and their addition as
-Collaborators is discussed during the weekly WG meeting.
+Individuos haciendo contribuciones significantes e importantes se convierten en  Colaboradores y se les da commit-access al proyecto. Estos individuos son identificados por el GT y son añadidos como Colaboradores discutido durante la reunión semanal.
 
-_Note:_ If you make a significant contribution and are not considered
-for commit-access log an issue or contact a WG member directly and it
-will be brought up in the next WG meeting.
+_Nota:_ si haces una contribución significante y valiosa y no eres considerado para commit-access escribe un issue o contacta directamente a un miembro del GT y será llevado a consideración en la siguiente reunión del GT.
 
-Modifications of the contents of the *[insert WG repo]* repository are made on
-a collaborative basis. Anybody with a GitHub account may propose a
-modification via pull request and it will be considered by the project
-Collaborators. All pull requests must be reviewed and accepted by a
-Collaborator with sufficient expertise who is able to take full
-responsibility for the change. In the case of pull requests proposed
-by an existing Collaborator, an additional Collaborator is required
-for sign-off. Consensus should be sought if additional Collaborators
-participate and there is disagreement around a particular
-modification. See _Consensus Seeking Process_ below for further detail
-on the consensus model used for governance.
+Modificaciones a los contenidos de *[insert WG repo]* son hechas de forma colaborativa. Cualquiera con una cuenta en GitHub puede proponer una modificación a través de pull request y será considerada por los Colaboradores del proyecto. Todas las pull request deben de ser revisadas y aceptadas por un colaborador con la suficiente destreza quién está en posición de tomar total responsabilidad del cambio. En el caso de que una pull request es propuesta por un Colaborador existente, se requiere que un Colaborador adicional firme la propuesta. Consenso debe ser buscado si más Colaboradores participan y hay un desacuerdo alrededor de una modificación en particular. Véase _Proceso de Búsqueda de Consenso_ abajo para más detalle en el modelo de consenso usado para gobernar.
 
-Collaborators may opt to elevate significant or controversial
-modifications, or modifications that have not found consensus to the
-WG for discussion by assigning the ***WG-agenda*** tag to a pull
-request or issue. The WG should serve as the final arbiter where
-required.
+Los Colaboradores pueden optar a elevar modificaciones significativas o controvertidas, o modificaciones que no han encontrado consenso al GT para discurso añadiendo la etiqueta ***WG-agenda*** a la pull
+request o issue. El GT debe de servir como arbitro final cuando se requiera.
 
-For the current list of Collaborators, see the project
+Para lista actualizada de de los Colaboradores, véase el proyecto
 [README.md](./README.md#current-project-team-members).
 
-### WG Membership
+### Membresía del GT
 
-WG seats are not time-limited.  There is no fixed size of the WG.
-However, the expected target is between 6 and 12, to ensure adequate
-coverage of important areas of expertise, balanced with the ability to
-make decisions efficiently.
+Los sitios en el GT no están limitados temporalmente. No hay tamaño fijo del GT. Sin embargo, el objetivo esperado está entre 6 y 12, para asegurar una cobertura de las areas de conocimiento importantes, balanceado con la habilidad para tomar decisiones de forma eficiente.
 
-There is no specific set of requirements or qualifications for WG
-membership beyond these rules.
+No hay un conjunto específico de requerimientos o calificaciones la membresía del GT más allá de estas reglas.
 
-The WG may add additional members to the WG by unanimous consensus.
+El GT puede añadir miembros adicionales al GT por consenso unánime.
 
-A WG member may be removed from the WG by voluntary resignation, or by
-unanimous consensus of all other WG members.
+Un miembro del GT puede ser eliminado del GT por resignación voluntaria, o por consenso unánime de toda la lista de miembros del GT.
 
-Changes to WG membership should be posted in the agenda, and may be
-suggested as any other agenda item (see "WG Meetings" below).
+Cambios en la membresía del GT deben de ser puestos en la agenda, y pueden ser sugeridos como cualquier otro item de esta (véase "Reuniones del GT" más abajo).
 
-If an addition or removal is proposed during a meeting, and the full
-WG is not in attendance to participate, then the addition or removal
-is added to the agenda for the subsequent meeting.  This is to ensure
-that all members are given the opportunity to participate in all
-membership decisions.  If a WG member is unable to attend a meeting
-where a planned membership decision is being made, then their consent
-is assumed.
+Si una adición o supresión es propuesta durante una reunión, y el GT no ha asistido al completo, entonces la adición o supresión se añade a la agenda de la reunión siguiente. Esto es debido a que todos a los miembros se le da la oportunidad de participar en todas las decisiones de membresía. Si un miembro del GT no está disponible para atender a la reunión cuando es planeada una decisión de membresía, entonces su consentimiento es asumido.
 
-No more than 1/3 of the WG members may be affiliated with the same
-employer.  If removal or resignation of a WG member, or a change of
-employment by a WG member, creates a situation where more than 1/3 of
-the WG membership shares an employer, then the situation must be
-immediately remedied by the resignation or removal of one or more WG
-members affiliated with the over-represented employer(s).
+No más de 1/3 de los miembros del GT han de estar afiliados a la mismo empleador.  Si una adición o supresión o resignación de un miembro del GT, o un cambio de empleo de un miembro del GT, crea una situación donde más 1/3 de la membresía del GT comparte un empleador, entonces la situación debe ser remediada inmediatamente con la resignación o supresión de uno o más miembros del GT afiliados con el empleador(es) más representado(s).
 
-### WG Meetings
+### Reuniones del GT
 
-The WG meets weekly on a Google Hangout On Air. A designated moderator
-approved by the WG runs the meeting. Each meeting should be
-published to YouTube.
+Los GT se reúnen semanalmente en un Google Hangout On Air. Un moderador designado aprobado por el GT lleva a cabo la reunión. Cada reunión debe ser publicada en YouTube.
 
-Items are added to the WG agenda that are considered contentious or
-are modifications of governance, contribution policy, WG membership,
-or release process.
+Se añaden items a la agenda del GT que sean considerados contenciosos o sean modificaciones en el gobierno, política de contribución, membresía del GT, o proceso de publicación.
 
-The intention of the agenda is not to approve or review all patches;
-that should happen continuously on GitHub and be handled by the larger
-group of Collaborators.
+La intención de la agenda no es la de aprobar o revisar todos los parches; lo que ha de ocurrir de forma continua en GitHub y ha de ser llevada a cabo por un grupo más grande de Colaboradores.
 
-Any community member or contributor can ask that something be added to
-the next meeting's agenda by logging a GitHub Issue. Any Collaborator,
-WG member or the moderator can add the item to the agenda by adding
-the ***WG-agenda*** tag to the issue.
+Cualquier miembro de la comunidad o colaborador puede preguntar si algo puede ser añadido a la agenda de la siguiente reunión abriendo un GitHub Issue. Cualquier colaborador, miembro de GT o moderador puede añadir un item a la agenda añadiendo la etiqueta **Agenda del GT** al issue.
 
-Prior to each WG meeting the moderator will share the Agenda with
-members of the WG. WG members can add any items they like to the
-agenda at the beginning of each meeting. The moderator and the WG
-cannot veto or remove items.
+Con anterioridad a cada reunión del GT el moderador compartirá la Agenda con los miembros del GT. Los miembros del GT pueden añadir tantos items como deseen al principio de cada reunión. El moderador y el GT no pueden vetar o suprimir items.
 
-The WG may invite persons or representatives from certain projects to
-participate in a non-voting capacity.
+El GT puede invitar personas o representantes a ciertos proyectos para participar en capacidad de no votante.
 
-The moderator is responsible for summarizing the discussion of each
-agenda item and sends it as a pull request after the meeting.
+El moderador es responsable de resumir la discusión de cada item en la agenda y enviar una pull request después de la reunión.
 
-### Consensus Seeking Process
+### Proceso de Búsqueda de Consenso
 
-The WG follows a
-[Consensus Seeking](http://en.wikipedia.org/wiki/Consensus-seeking_decision-making)
-decision-making model.
+El GT sigue un proceso de [Búsqueda de Consenso](http://en.wikipedia.org/wiki/Consensus-seeking_decision-making)
+a la hora de tomar decisiones.
 
-When an agenda item has appeared to reach a consensus the moderator
-will ask "Does anyone object?" as a final call for dissent from the
-consensus.
+Cuando un item en la agenda aparece para alcanzar consenso el moderador preguntará "¿Alguien objeta?" como llamada final para disentir del consenso.
 
-If an agenda item cannot reach a consensus a WG member can call for
-either a closing vote or a vote to table the issue to the next
-meeting. The call for a vote must be seconded by a majority of the WG
-or else the discussion will continue. Simple majority wins.
+Si un item en la agenda no alcanza consenso un miembro del GT puede hacer una llamada voto o a cerrar el voto para llevar este asunto a la mesa en la siguiente reunión. La llamada a voto debe de ser secundada por la mayoría del GT o de lo contrario la discusión continuará. Mayoría simple gana.
 
-Note that changes to WG membership require unanimous consensus.  See
-"WG Membership" above.
+Nótese que cambias a la membresía del GT requieren de un consenso unánime. Véase "Reuniones del GT" más arriba.
 
-### Developer's Certificate of Origin 1.0
+### Certificado del desarrollador de Origen 1.0
 
-By making a contribution to this project, I certify that:
+Contribuyendo a este proyecto, yo certifico que:
 
-* (a) The contribution was created in whole or in part by me and I
-  have the right to submit it under the open source license indicated
-  in the file; or
-* (b) The contribution is based upon previous work that, to the best
-  of my knowledge, is covered under an appropriate open source license
+* (a) La contribución fue creada en su todo o en parte por mi y que tengo el derecho de presentarla bajo una licencia de código indicada en el archivo; o
+* (b) La contribución está basada en un trabajo previo que, en el mejor de mi conocimiento, está cubierto bajo una licencia de código abierto apropiada y que yo tengo el derecho bajo esta licencia a presentar el trabajo con modificaciones, ya sea creado en su totalidad o en parte por mi bajo la misma licencia de código abierto (, is covered under an appropriate open source license
   and I have the right under that license to submit that work with
   modifications, whether created in whole or in part by me, under the
-  same open source license (unless I am permitted to submit under a
-  different license), as indicated in the file; or
-* (c) The contribution was provided directly to me by some other
-  person who certified (a), (b) or (c) and I have not modified it.
+  same open source license (a menos que me esté permitido el presentarlo bajo una licencia diferente), como está indicado en el archivo; o
+* (c) La contribución me fue provista por otra persona que certifica (a), (b) or (c) y yo no la he modificado.
 
 
-### Code of Conduct
+### Código de Conducta
 
-This Code of Conduct is adapted from [Rust's wonderful
+Este Código de Conducta está adaptado de [Rust's wonderful
 CoC](https://github.com/rust-lang/rust/wiki/Note-development-policy#conduct).
 
-* We are committed to providing a friendly, safe and welcoming
-  environment for all, regardless of gender, sexual orientation,
-  disability, ethnicity, religion, or similar personal characteristic.
-* Please avoid using overtly sexual nicknames or other nicknames that
-  might detract from a friendly, safe and welcoming environment for
-  all.
-* Please be kind and courteous. There's no need to be mean or rude.
-* Respect that people have differences of opinion and that every
-  design or implementation choice carries a trade-off and numerous
-  costs. There is seldom a right answer.
-* Please keep unstructured critique to a minimum. If you have solid
-  ideas you want to experiment with, make a fork and see how it works.
-* We will exclude you from interaction if you insult, demean or harass
-  anyone.  That is not welcome behaviour. We interpret the term
-  "harassment" as including the definition in the [Citizen Code of
-  Conduct](http://citizencodeofconduct.org/); if you have any lack of
-  clarity about what might be included in that concept, please read
-  their definition. In particular, we don't tolerate behavior that
-  excludes people in socially marginalized groups.
-* Private harassment is also unacceptable. No matter who you are, if
-  you feel you have been or are being harassed or made uncomfortable
-  by a community member, please contact one of the channel ops or any
-  of the TC members immediately with a capture (log, photo, email) of
-  the harassment if possible.  Whether you're a regular contributor or
-  a newcomer, we care about making this community a safe place for you
-  and we've got your back.
-* Likewise any spamming, trolling, flaming, baiting or other
-  attention-stealing behaviour is not welcome.
-* Avoid the use of personal pronouns in code comments or
-  documentation. There is no need to address persons when explaining
-  code (e.g. "When the developer")
+* Estamos comprometidos a dar un amable, seguro y bienvenido ambiente para todos, indistintamente del género, orientación sexual, discapacidad, origen étnico, religión o característica personal similar.
+* Por favor, evite el uso de apodos abiertamente sexuales u otros apodos que
+  pudieran menoscabar un ambiente amigable, seguro y acogedor para
+  todos.
+* Por favor, sea amable y cortés. No hay necesidad en ser malo o grosero.
+* Respete que la gente tiene diferencias de opinión y que cada
+  diseño o elección tiene su contrapartida y numerosos costes. Rara vez hay una respuesta correcta.
+* Por favor, mantenga la crítica no estructurada al mínimo. Si usted tiene una sólida idea que quieren experimentar, haga un fork y comprébelo.
+* Se le excluirá de interacción alguna si insulta, degrada o acosa. Ese comportamiento no es bienvenido. Se interpreta como "Acoso" el que se incluye en la definición del [Código Ciudadano
+  Conducta] (http://citizencodeofconduct.org/); si no está claro para usted de lo que podría incluirse en ese concepto, por favor, lea su definición. En particular, no toleramos un comportamiento que excluye a las personas en los grupos socialmente marginados.
+* El acoso privado también es inaceptable. Sin importar quien sea, si
+  usted siente que ha sido o está siendo acosado o se le ha hecho sentir incómodo por un miembro de la comunidad, por favor póngase en contacto con uno de los operadores del canal o cualquier de los miembros del CT inmediatamente acompañándolo de una captura (registro, foto, correo electrónico) de el acoso si es posible. Si usted es un contribuyente regular o
+  un recién llegado, nos preocuparemos en hacer en esta comunidad un lugar seguro para usted y le guardaremos espalda.
+* Del mismo modo cualquier spam, trolling, flaming, hostigamiento u otro
+  el comportamiento relacionado con el robo de atención no es bienvenido.
+* Evítese el uso de los pronombres personales en los comentarios de código o
+  documentación. No hay necesidad de hacer frente a las personas al explicar
+  código (por ejemplo, "Cuando el desarrollador")
